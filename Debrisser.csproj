@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject>Debrisser.Program</StartupObject>
+    <ApplicationIcon>golden-gate.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="golden-gate.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Debris">
+      <HintPath>..\Debris\bin\Debug\net8.0\Debris.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
